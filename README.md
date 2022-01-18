@@ -11,7 +11,9 @@ Usage: python cartesian2spherical.py <input nifti file> <output nifti file>
 example: python cartesian2spherical.py mri_demo.nii.gz sph_mri_demo.nii.gz
 ```
 
-![alt text](https://github.com/doc78/CartesianToSphericalMRI/blob/main/imgs/CartToSpherical.jpg?raw=true)
 
+![Example of transformed volume](https://github.com/doc78/CartesianToSphericalMRI/blob/main/imgs/VolumePolarCoordinatesExample.PNG?raw=true)
 
-![alt text](https://github.com/doc78/CartesianToSphericalMRI/blob/main/imgs/GraphicalAbstract.jpg?raw=true)
+![2D Polar and 3D Spherical transformation](https://github.com/doc78/CartesianToSphericalMRI/blob/main/imgs/CartToSpherical.jpg?raw=true)
+
+![Pre-processing and training pipeline of the method](https://github.com/doc78/CartesianToSphericalMRI/blob/main/imgs/GraphicalAbstract.jpg?raw=true)
