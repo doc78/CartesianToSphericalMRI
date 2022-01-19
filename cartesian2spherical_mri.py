@@ -1,10 +1,12 @@
 import numpy as np
 import scipy as sp
 from scipy import ndimage
+import sys
 
 from nibabel import load as load_nii, Nifti1Image
 
-def main(*args):
+def main():
+    args = sys.argv
 
     origin=(151,96,96)
     if len(args)<2:
